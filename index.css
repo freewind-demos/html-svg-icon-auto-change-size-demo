@@ -1,4 +1,18 @@
-#main {
+#icon {
   color: red;
-  font-size: 30px;
+  animation-name: icon-scale;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+@keyframes icon-scale {
+  0% {
+    font-size: 30px;
+  }
+  30% {
+    font-size: 80px;
+  }
+  100% {
+    font-size: 30px;
+  }
 }
